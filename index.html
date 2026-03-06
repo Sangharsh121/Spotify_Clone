@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify - Web Player: Music for everyone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
 </head>
@@ -25,6 +25,21 @@
                     <h2>
                         Your Library
                     </h2>
+                </div>
+                <div class="songList">
+                    <ul>
+                        <li>
+                            <img class="invert" src="music.svg" alt="">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playnow">
+                                <span>play now</span>
+                                <img class="invert" src="play2.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                 <div class="footer">
                     <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
@@ -51,9 +66,9 @@
                             stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </div>
-                <div class="button">
-                    <button>Signup</button>
-                    <button>Login</button>
+                <div class="btn">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
                 </div>
             </div>
             <div class="spotifyPlaylists">
@@ -77,9 +92,31 @@
                         <h2>Happy Hits</h2>
                         <p>Hits to boost your mood and fill you with happiness</p>
                     </div>
+                    <div class="card">
+                        <div class="play"><img src="play.svg" alt="play" class="invert"></div>
+                        <img src="cover.jpg" alt="">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost your mood and fill you with happiness</p>
+                    </div>
+                    <div class="card">
+                        <div class="play"><img src="play.svg" alt="play" class="invert"></div>
+                        <img src="cover.jpg" alt="">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost your mood and fill you with happiness</p>
+                    </div>
+                    
+                </div>
+                <div class="playbar">
+                    <div class="songbtns">
+                        <img src="prevsong.svg" alt="">
+                        <img src="play2.svg" alt="">
+                        <img src="nextsong.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

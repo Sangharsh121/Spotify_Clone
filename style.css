@@ -15,7 +15,7 @@ body{
 
 .left{
     width: 30vw;
-    padding: 10px;
+    padding: 7px;
 }
 .right{
     width: 75vw;
@@ -46,7 +46,7 @@ body{
 }
 
 .library{
-    min-height: 70vh;
+    min-height: 73vh;
     position: relative;
 }
 
@@ -64,6 +64,7 @@ body{
 
 .right{
     margin: 21px 0;
+    position: relative;
 }
 
 .header{
@@ -84,8 +85,10 @@ body{
 .cardContainer{
     margin: 30px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 60vh;
 }
 
 .card{
@@ -129,4 +132,67 @@ body{
     width: 20px;
     height: 20px;
     display: block;
+}
+
+.btn > * {
+    margin: 0 13px;
+}
+
+.signupbtn{
+    background-color: rgb(49 49 49);
+    color: rgb(156, 148, 148);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.loginbtn{
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    padding: 7px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.loginbtn:hover{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    width: 92%;
+}
+
+.songbtns{
+    display: flex;
+    justify-content: center;
+    gap:16px
+}
+
+.songList ul{
+    padding: 0 40px;
+}
+
+.songList ul li{
+    list-style-type: decimal;
+    display: flex;
+    gap: 34px;
+    cursor: pointer;
+    padding: 12px 0;
+}
+
+.playnow{
+    display: flex;
+    
 }
